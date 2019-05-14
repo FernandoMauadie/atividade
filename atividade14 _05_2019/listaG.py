@@ -34,7 +34,7 @@ def ListaGN():
     a = []#lista vazia
     y = 0#contador para colocar o local do elemento na lista
     n = int(input('coloque o numero de elementos da lista'))
-    h = 0#será utilizado para fazer a soma portanto o valor inicial deve ser zero
+    soma = 0#será utilizado para fazer a soma portanto o valor inicial deve ser zero
     while y<3*n:
         b = input('coloque o nome da pessoa na lista')
         a.insert(y,b)#local na lista e o elemento
@@ -45,7 +45,7 @@ def ListaGN():
         x = int(input('colque o numero do produto'))
         f = prod(x)#função prod
         a.insert(y,f)#local na lista e o elemento
-        soma = f+h#soma para obter a soma 
+        soma = f+soma#soma para obter a soma
         h = f# armazena o valor de f
         y+=1#adiciona 1 ao contador
     return(a,soma)#retorna a lista e a soma
