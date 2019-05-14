@@ -46,6 +46,5 @@ def ListaGN():
         f = prod(x)#função prod
         a.insert(y,f)#local na lista e o elemento
         soma = f+soma#soma para obter a soma
-        h = f# armazena o valor de f
         y+=1#adiciona 1 ao contador
     return(a,soma)#retorna a lista e a soma
