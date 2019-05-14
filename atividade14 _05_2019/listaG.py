@@ -44,8 +44,8 @@ def ListaGN():
         y+=1#adiciona 1 ao contador
         x = int(input('colque o numero do produto'))
         f = prod(x)#função prod
+        a.insert(y,f)#local na lista e o elemento
         soma = f+h#soma para obter a soma 
         h = f# armazena o valor de f
-        a.insert(y,x)#local na lista e o elemento
         y+=1#adiciona 1 ao contador
     return(a,soma)#retorna a lista e a soma
